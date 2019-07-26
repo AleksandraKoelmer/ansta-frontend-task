@@ -40,6 +40,7 @@ export default function createNewEmployee() {
     let wynagrodzenieKwota = document.createElement('input');
     wynagrodzenieKwota.setAttribute('placeholder', 'Kwota')
     wynagrodzenieKwota.setAttribute('type', 'number');
+    wynagrodzenieKwota.setAttribute('min', '0')
     wynagrodzenieKwota.setAttribute('id', 'wynagrodzenieKwota');
     wynagrodzenieKwota.required = true
     newEmployeeForm.appendChild(wynagrodzenieKwota)
